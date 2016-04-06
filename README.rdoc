@@ -5,5 +5,5 @@ This is another project from a Udemy rails course. This project will be an insta
 
 == GEMS 
 
-haml, bootstrap-sass, simple_form, devise, paperclip, masonry-rails
+haml, bootstrap-sass, simple_form, devise, paperclip, masonry-rails, acts_as_votable
 

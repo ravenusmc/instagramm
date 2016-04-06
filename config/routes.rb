@@ -2,7 +2,13 @@ Rails.application.routes.draw do
 
   root "pics#index"
 
-  resources :pics
+  resources :pics do 
+    #This part is for the acts_as_votable gem
+    member do 
+      put "Like", to: "pics#upvote"
+    end 
+  end 
+  
   devise_for :users
 
 
