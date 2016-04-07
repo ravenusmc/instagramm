@@ -1,6 +1,7 @@
 == README
 
 This is another project from a Udemy rails course. This project will be an instagram clone. 
+The project is done but not sure if I will be posting it. 
 
 
 == GEMS 
